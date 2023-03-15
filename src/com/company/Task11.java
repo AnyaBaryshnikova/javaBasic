@@ -15,10 +15,10 @@ public class Task11 {
 
         if (m > k) {
             System.out.println("Большее число: " + m);
-            System.out.println("Меньшее число: " + (double) k);
+            System.out.printf("Меньшее число: %.2f", (double) k);
         } else {
             System.out.println("Большее число: " + k);
-            System.out.println("Меньшее число: " + (double) m);
+            System.out.printf("Меньшее число: %.2f", (double) m);
         }
     }
 }

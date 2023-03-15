@@ -24,7 +24,5 @@ public class Task14 {
         System.out.println("Максимальный элемент: " + max);
         System.out.println("Минимальный элемент: " + min);
         System.out.println("Максимальный элемент по модулю : " + Integer.max(Math.abs(max), Math.abs(min)));
-
-
     }
 }

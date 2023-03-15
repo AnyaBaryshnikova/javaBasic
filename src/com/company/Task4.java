@@ -15,8 +15,8 @@ public class Task4 {
         double avg = (double) (x + y + z) / 3;
         System.out.printf("Среднее арифметическое: %.2f", avg);
 
-        int k = (int) (avg / 2);
-        System.out.println(k);
+        double k = Math.floor(avg / 2);
+        System.out.printf("%.2f", k);
 
         if (k > 3)
             System.out.println("Программа выполнена корректно");

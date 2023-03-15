@@ -19,6 +19,6 @@ public class Task8 {
             k += 2;
         }
 
-        System.out.println("Сумма нечетных эдементов от 1 до " + n + " равно " + sum);
+        System.out.println("Сумма нечетных элементов от 1 до " + n + " равно " + sum);
     }
 }
